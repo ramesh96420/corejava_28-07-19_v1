@@ -11,15 +11,15 @@ public class HashMapWithEmployeeIsKey {
 		
 		// Employee
 		Employee employee = new Employee();
-		employee.setId(1);
+		employee.setEmpId(1);
 		employee.setName("Ramesh");
 		
 		Employee emp = new Employee();
-		emp.setId(2);
+		emp.setEmpId(2);
 		emp.setName("Ram");
 		
 		Employee emp1 = new Employee();
-		emp1.setId(3);
+		emp1.setEmpId(3);
 		emp1.setName("Sam");
 		
 		

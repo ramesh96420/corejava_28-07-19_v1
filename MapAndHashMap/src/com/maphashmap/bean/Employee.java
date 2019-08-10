@@ -2,20 +2,23 @@ package com.maphashmap.bean;
 
 public class Employee {
 
-	private int id;
-	private String name;
-	public int getId() {
-		return id;
+	private int empId;
+	private String empName;
+	public int getEmpId() {
+		return empId;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setEmpId(int id) {
+		this.empId = id;
 	}
-	public String getName() {
-		return name;
+	public String getEmpName() {
+		return empName;
 	}
 	public void setName(String name) {
-		this.name = name;
+		this.empName = name;
 	}
 	
+	public void display(){
+		System.out.println("Emp Id "+ getEmpId() +" and Emp Name "+ getEmpName());
+	}
 	
 }

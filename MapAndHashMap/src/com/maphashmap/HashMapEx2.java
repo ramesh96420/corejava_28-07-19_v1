@@ -21,11 +21,12 @@ public class HashMapEx2 {
 		}
 	}
 	
-	/*OutPut:-
-	 * {actor=Charan, myName=ABC, ceo=Ramesh}
-		actor Charan
+	/**
+	 * OutPut:-
+	 * {actor=Zebra, myName=ABC, ceo=Ramesh}
+		actor Zebra
 		myName ABC
 		ceo Ramesh
-	*/
+	 **/
 
 }

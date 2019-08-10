@@ -19,5 +19,14 @@ public class HashMapEx1 {
 		System.out.println(map.get(5));		//null
 		System.out.println(map.get(6));		//null
 	}
+	
+	/**
+	 * OutPut:-
+	 * {1=Ramesh, 2=Jan, 3=Pavan, 4=Pavan}
+		Jan
+		[1, 2, 3, 4] and [Ramesh, Jan, Pavan, Pavan]
+		null
+		null
+	 **/
 
 }

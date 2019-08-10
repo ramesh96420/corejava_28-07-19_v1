@@ -2,8 +2,6 @@ package com.generics;
 
 import java.util.ArrayList;
 
-import com.generics.bean.Employee;
-
 /**
  * NumberTypeContainer class is Custom Generic type class. This
  * NumberTypeContainer class supporting only Number type classes The number type
@@ -49,8 +47,6 @@ public class GenericsForAllNumberTypeClasses {
 		NumberTypeContainer<Integer> floatType = new NumberTypeContainer<>();
 		floatType.value = 10;
 		floatType.show();
-
-		
 		
 	}
 

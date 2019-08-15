@@ -6,7 +6,10 @@ import java.util.List;
 /**
  * filter method is using for to check the conditions.
  * map method is using for to convert one to another object type.
- * forEach method is using for printing purposes. 
+ * forEach method is using for printing purposes.
+ * here forEach is a terminal operation.
+ * collect method is convert or transforming  one object type to another object type and after converting it's return that object.  
+ * here collect is a terminal operation.
  * **/
 public class FilterAndForEachMethods {
 

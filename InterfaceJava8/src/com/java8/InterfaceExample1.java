@@ -1,6 +1,6 @@
 package com.java8;
 
-// Interface I
+// Interface X
 interface X{
 	void add();
 	default void show(){
@@ -8,7 +8,7 @@ interface X{
 	}
 }
 
-// Interface J
+// Interface Y
 interface Y{
 	void add();
 	default void show(){

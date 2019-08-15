@@ -3,6 +3,11 @@ package com.streamapi;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * filter method is using for to check the conditions.
+ * map method is using for to convert one to another object type.
+ * forEach method is using for printing purposes. 
+ * **/
 public class MapAndCollectMethods {
 
 	public static void main(String args[]){

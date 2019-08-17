@@ -10,6 +10,7 @@ import java.util.List;
  * here forEach is a terminal operation.
  * collect method is convert or transforming  one object type to another object type and after converting it's return that object.  
  * here collect is a terminal operation.
+ * flatMap is using for to convert one type stream to another type stream.
  * **/
 public class FilterAndForEachMethods {
 

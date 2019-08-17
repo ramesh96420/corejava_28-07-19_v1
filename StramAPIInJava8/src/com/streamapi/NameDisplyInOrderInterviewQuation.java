@@ -18,8 +18,8 @@ public class NameDisplyInOrderInterviewQuation {
 					.collect(Collectors.toList());
 		System.out.println(listOfName);
 		
-		// Display Names Start with S charactor.
-		System.out.println("Display Names Start with 'S' charactor.");
+		// Display Names Start with S character and avoid the duplicates and display the duplicates also.
+		System.out.println("Display Names Start with S character and avoid the duplicates and display the duplicates also");
 		List<String> name1 = Arrays.asList("Ramesh", "Sundar", "Chandu", "Sun", "Sam", "Sundar");
 		List<String> displayStartWithS = name1.stream().filter(name -> name.startsWith("S"))
 				.distinct()
@@ -31,7 +31,7 @@ public class NameDisplyInOrderInterviewQuation {
 		/**
 		 * OUTPUT:-
 		 * [, llo, w are you?]
-			Display Names Start with 'S' charactor.
+			Display Names Start with S character and avoid the duplicates and display the duplicates also
 			[Sam, Sun, Sundar]
 		 **/
 		
